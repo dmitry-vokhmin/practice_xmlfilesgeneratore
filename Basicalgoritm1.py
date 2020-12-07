@@ -34,7 +34,6 @@ def is_polindrom(text: str) -> bool:
 
 print(is_polindrom("О шорох, Кате свежо, Боже, все так хорошо!"))
 
-
 def is_maybe_polindrom(text: str) -> bool:
     count = 0
     for char in set(text):

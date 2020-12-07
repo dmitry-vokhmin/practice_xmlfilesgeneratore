@@ -62,5 +62,3 @@ def simple_number(number: int) -> typing.List[int]:
         result.append(simp_numbers)
         simp_numbers = my_list[0] if len(my_list) else 0
     return result
-
-print(simple_number(120))

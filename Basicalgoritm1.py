@@ -34,7 +34,6 @@ def is_polindrom(text: str) -> bool:
 
 print(is_polindrom("О шорох, Кате свежо, Боже, все так хорошо!"))
 
-
 def is_maybe_polindrom(text: str) -> bool:
     count = 0
     for char in set(text):
@@ -62,5 +61,3 @@ def simple_number(number: int) -> typing.List[int]:
         result.append(simp_numbers)
         simp_numbers = my_list[0] if len(my_list) else 0
     return result
-
-print(simple_number(120))
